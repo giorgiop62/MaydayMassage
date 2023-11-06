@@ -1,8 +1,6 @@
 <script>
 export default {
     name: "AppHeader",
-
-
 }
 </script>
 
@@ -18,9 +16,11 @@ export default {
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <li><router-link class="nav-link" to="/home" tag="button">Home</router-link></li>
+                        <li><router-link class="nav-link" to="/about" tag="button">Chi Sono</router-link></li>
                         <li><router-link class="nav-link" to="/massaggi" tag="button">Massaggi</router-link></li>
-                        <li><router-link class="nav-link" to="/home" tag="button">Collaborazioni</router-link></li>
-                        <li><router-link class="nav-link" to="/home" tag="button">Contatti</router-link></li>
+                        <li><router-link class="nav-link" to="/collaborazioni" tag="button">Collaborazioni</router-link>
+                        </li>
+                        <li><router-link class="nav-link" to="/contatti" tag="button">Contatti</router-link></li>
                     </div>
                 </div>
             </div>
