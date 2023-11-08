@@ -11,14 +11,14 @@ export default {
                 <img src="../assets/img_fabio/logo.png" alt="logo">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                     aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span><i class="fa-solid fa-bars icon"></i></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <li><router-link class="nav-link" to="/home" tag="button">Home</router-link></li>
                         <li><router-link class="nav-link" to="/about" tag="button">Chi Sono</router-link></li>
                         <li><router-link class="nav-link" to="/massaggi" tag="button">Massaggi</router-link></li>
-                        <li><router-link class="nav-link" to="/collaborazioni" tag="button">Collaborazioni</router-link>
+                        <li><router-link class="nav-link" to="/collaborazioni" tag="button">Articolo</router-link>
                         </li>
                         <li><router-link class="nav-link" to="/contatti" tag="button">Contatti</router-link></li>
                     </div>
@@ -40,7 +40,11 @@ img {
 }
 
 button {
-    border: 3px solid #e1b264;
+    border: 2px solid #e1b264;
+}
+
+.icon {
+    color: #e1b264;
 }
 
 .nav-link {

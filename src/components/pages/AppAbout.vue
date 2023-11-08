@@ -7,17 +7,17 @@ export default {
 <template>
     <div class="container">
         <h1>CHI SONO</h1>
-        <div class="text">
-            <p>
-                SONO FABIO CARANDENTE, EDUCATORE,
-                EBANISTA E MASSAGGIATORE PROFESSIONISTA.
-                FIN DA PICCOLO AMANTE DELLA PACE INTERIORE,
-                DELLA NATURA, DELL'ARTE. HO VOLUTO QUINDI FARE DI QUESTA MIA PASSIONE
-                UNA PROFESSIONE CAPACE DI TRASMETTERE ALL'ALTRO LE MEDESIME SENSAZIONI DI BENESSERE...
-            </p>
-        </div>
-        <div class="img">
-            <img src="../../assets/img_fabio/3.jpg" alt="">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="../../assets/img_fabio/14.jpg" alt="Immagine" class="img-fluid">
+            </div>
+            <div class="col-md-6">
+                <p>
+                    SONO FABIO CARANDENTE, EDUCATORE, EBANISTA E MASSAGGIATORE PROFESSIONISTA.
+                    FIN DA PICCOLO AMANTE DELLA PACE INTERIORE, DELLA NATURA, DELL 'ARTE. HO VOLUTO QUINDI FARE DI QUESTA
+                    MIA PASSIONE UNA PROFESSIONE CAPACE DI TRASMETTERE ALL' ALTRO LE MEDESIME SESAZIONI DI BENESSERE...
+                </p>
+            </div>
         </div>
     </div>
 
@@ -37,19 +37,19 @@ export default {
 
 h1 {
     text-align: center;
-    color: #543e2a;
-    font-size: 50px;
+    color: #8c5332;
 }
 
-.text {
-    text-align: start;
-    width: 300px;
-    margin-top: 40px;
+
+
+p {
+    font-size: 40px;
 }
 
-img {
-    width: 300px;
+.logo {
+    width: 70px;
 }
+
 
 .linea {
     background-color: #8c5332;
@@ -61,10 +61,5 @@ img {
 .title {
     color: white;
     font-size: 20px;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
 }
 </style>

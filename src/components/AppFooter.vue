@@ -5,17 +5,19 @@ export default {
 </script>
 
 <template>
-    <footer class="bg-dark text-white d-flex">
+    <footer class="bg-dark text-white d-flex ">
         <div class="left">
-            <p>Fabio Caradente</p>
+            <h6>Fabio Caradente</h6>
         </div>
-        <div class="logo">
-            <img src="../assets/img_fabio/logo.png" alt="logo">
+        <div class="creator">
+            <p>created by: Giorgio Perez</p>
         </div>
         <div class="social">
             <ul class="d-flex">
-                <li><i class="fa-brands fa-instagram"></i></li>
-                <li><i class="fa-brands fa-facebook"></i></li>
+                <li><a href="https://www.facebook.com/fabio.carandente1?locale=it_IT%2F"><i
+                            class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/maydaymassage/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="tel:+3505255178"><i class="fa-brands fa-whatsapp" title="cliccla per chattare"></i></a></li>
             </ul>
         </div>
     </footer>
@@ -29,11 +31,12 @@ footer {
 }
 
 p {
-    color: #e1b264;
+    font-size: 8px;
 }
 
-img {
-    width: 30px;
+h6 {
+    color: #e1b264;
+    margin-left: 20px;
 }
 
 ul {
@@ -41,6 +44,11 @@ ul {
 }
 
 li {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+a {
     color: #e1b264;
 }
 </style>
