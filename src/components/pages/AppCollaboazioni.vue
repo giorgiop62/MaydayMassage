@@ -45,6 +45,7 @@ img {
 @media only screen and (max-width: 430px) {
     img {
         width: 200px;
+        margin: 5px;
     }
 
     .box {
