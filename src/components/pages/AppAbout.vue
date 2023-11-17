@@ -44,6 +44,7 @@ h1 {
 
 p {
     font-size: 40px;
+    text-align: center;
 }
 
 .logo {
