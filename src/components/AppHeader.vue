@@ -18,11 +18,9 @@ export default {
                         <li><router-link class="nav-link" to="/home" tag="button">Home</router-link></li>
                         <li><router-link class="nav-link" to="/about" tag="button">Chi Sono</router-link></li>
                         <li><router-link class="nav-link" to="/massaggi" tag="button">Massaggi</router-link></li>
-                        <li><router-link class="nav-link" to="/collaborazioni" tag="button">Articolo &amp;
-                                Vip</router-link>
+                        <li><router-link class="nav-link" to="/collaborazioni" tag="button">Articolo</router-link>
                         </li>
-                        <li><router-link class="nav-link" to="/contatti" tag="button">Contatti &amp;
-                                Collaborazioni</router-link></li>
+                        <li><router-link class="nav-link" to="/contatti" tag="button">Contatti</router-link></li>
                     </div>
                 </div>
             </div>

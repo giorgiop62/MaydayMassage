@@ -6,19 +6,19 @@ export default {
         return {
             info,
             loveSelected: {},
-            isModalOpen: false,
+            isModalOpen: false
         }
     },
     methods: {
         showDetail(love) {
+            console.log(love)
             this.isModalOpen = true;
             this.loveSelected = love;
         },
         closeModal() {
             this.isModalOpen = false;
             this.loveSelected = {};
-        },
-
+        }
 
     }
 }
@@ -26,69 +26,91 @@ export default {
 
 <template>
     <div class="container">
-        <div class="row">
-            <div class="col-md-4" v-for="(love, index) in info" :key="index">
-                <div class="card">
-                    <img :src="love.img" class="card-img-top" alt="Immagine">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ love.title }}</h5>
-                        <p class="card-text">{{ love.description }}</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" :data-bs-target="'#myModal' + index"
-                            v-on:click="showDetail(love)">Dettagli</button>
+        <h1 class="text-center p-3">I MIEI MASSAGGI</h1>
+        <div id="id_carousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active" v-for="(love, index) in info" :key="index">
+                    <img :src="love.img" class="d-block w-100" alt="maydaymassage">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>{{ love.title }}</h5>
+                        <p>{{ love.description }}</p>
+                        <button :data-bs-target="'#myModal' + love.title" v-on:click="showDetail(love)"
+                            class="btn btn-primary">Dettaglio</button>
                     </div>
                 </div>
-
-                <!-- Modal -->
-                <div :id="'myModal' + index" class="modal fade" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">{{ love.title }}</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Chiudi"></button>
-                            </div>
-                            <div class="modal-body">
-                                <p>{{ love.dettaglio }}</p>
-                                <h6 class="text-center">{{ love.durata }}</h6>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
-                            </div>
-                        </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#id_carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#id_carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--Modal-->
+        <div v-if="isModalOpen" class="modal fade" :id="'myModal' + loveSelected.title" tabindex="-1"
+            aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">{{ loveSelected.title }}</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"
+                            @click="closeModal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img :src="loveSelected.img" class="d-block w-100" alt="maydaymassage">
+                        <p>{{ loveSelected.Dettaglio }}</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"
+                            @click="closeModal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 </template>
-  
+
 <style scoped>
 .container {
-    min-height: 100vh;
+    height: 100vh;
 }
 
-.card {
-    margin: 20px;
+h1 {
+    color: #8c5332;
 }
 
+h5,
 p {
-    height: 100px;
-    /* Adjust as needed */
-    color: #8c5332;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-h5 {
     font-weight: bold;
-    font-size: 19px;
-    color: #e1b264;
+    font-size: 20px;
+    color: wheat;
 }
 
-h6 {
-    text-align: center;
-    color: #8c5332;
+.carousel {
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    width: 700px;
+    height: 500px;
+}
+
+
+
+@media only screen and (max-width: 430px) {
+    .carousel {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        height: 300px;
+    }
+
 }
 </style>
-  
