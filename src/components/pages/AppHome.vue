@@ -4,114 +4,94 @@ export default {
 }
 </script>
 
+
 <template>
-    <div class="container">
-        <h2>CIAO SONO FABIO CARANDENTE, L'IDEATORE DEL METODO</h2>
-        <div class="img">
-            <img src="../../assets/img_fabio/10.jpg" alt="">
-            <p class="">MAYDAYmassage</p>
-        </div>
-    </div>
-    <div class="linea"></div>
-    <div class="title">
-        <div class="row justify-content-center">
-            <div class="col-12 text-center">
-                <img class="logo" src="../../assets/img_fabio/logo.png" alt="Logo" width="100" height="100">
-                <h1>MAYDAYMASSAGE</h1>
+    <div>
+        <div class="container text-center">
+            <h2>CIAO SONO FABIO CARANDENTE, L'IDEATORE DEL METODO</h2>
+            <div class="video">
+                <video autoplay loop class="w-100" style="max-width: 100%;">
+                    <source src="../../assets/img_fabio/video4.mp4" type="video/mp4">
+                </video>
+                <p class="may">MAYDAYmassage</p>
             </div>
         </div>
-    </div>
-    <div class="descrizione">
-        <p class="text">
-            Il SEGNALE MAYDAY INDICA UN'
-            IMMEDIATA NECESSITA DI AIUTO,
-            LA CUI ORIGINE E' DA RISCONTRARSI
-            NELL'ESPRESSIONE FRANCESE (VENEZ MAID AIDERI)
-            (VENITE AD AIUTARMI)
-        </p>
-    </div>
-    <div class="box-img">
-        <img class="box" src="../../assets/img_fabio/13.jpg" alt="">
+
+        <div class="linea  my-4"></div>
+
+        <div class="title text-center">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <img class="logo" src="../../assets/img_fabio/logo.png" alt="Logo" width="100" height="100">
+                    <h1>MAYDAYMASSAGE</h1>
+                </div>
+            </div>
+        </div>
+
+        <div class="descrizione text-center  text-white my-4 p-4 rounded">
+            <p class="text">
+                Il SEGNALE MAYDAY INDICA UN'
+                IMMEDIATA NECESSITA DI AIUTO,
+                LA CUI ORIGINE E' DA RISCONTRARSI
+                NELL'ESPRESSIONE FRANCESE (VENEZ MAID AIDERI)
+                (VENITE AD AIUTARMI)
+            </p>
+        </div>
+
+        <div class="box-img text-center">
+            <img class="box img-fluid" src="../../assets/img_fabio/13.jpg" alt="">
+        </div>
     </div>
 </template>
-
+  
 <style scoped>
-.container {
-    text-align: center;
-}
-
-img {
-    width: 400px
-}
-
-
-
-
 h2 {
-    color: white;
-    margin: 30px 0;
+    margin-top: 20px;
+    color: #e1b264;
 }
 
 .may {
-    color: white;
-}
-
-.logo {
-    width: 70px;
-    height: 100px;
-}
-
-p {
     color: #8c5332;
-    font-size: 500%;
+    font-size: 60px;
+}
+
+video {
+    width: 100%;
+    height: 600px;
 }
 
 .linea {
-    background-color: #8c5332;
-    width: 90%;
     height: 3px;
-    margin: 60px auto;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #8c5332;
 }
 
 .descrizione {
-    background-color: #8c5332;
     width: 30%;
-    margin: 30px auto;
-    padding: 20px;
-    border-radius: 20px;
-}
+    background-color: #8c5332;
+    height: 200px;
+    margin: 0 auto;
 
-.text {
-    color: white;
-    font-size: 20px;
 }
 
 .box {
-    width: 500px;
+    max-width: 30%;
+    margin-bottom: 20px;
 }
 
-.box-img {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-@media only screen and (max-width: 430px) {
-    h2 {
-        font-size: 20px;
-    }
-
-    p {
-        font-size: 40px;
-    }
-
-
-    .container {
-        width: 100%;
-    }
-
+/* Responsive Styles */
+@media (max-width: 768px) {
     .descrizione {
-        width: 100%;
+        width: 90%;
+    }
+
+    .box {
+        max-width: 100%;
+    }
+
+    .may {
+        font-size: 40px;
     }
 }
 </style>
-
