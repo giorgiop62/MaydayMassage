@@ -30,7 +30,7 @@ export default {
             <div class="row">
                 <div class="col-md-7 box-img">
                     <div class="img">
-                        <img src="../../assets/img_fabio/10.jpg" alt="">
+                        <img src="../../assets/img_fabio/25.jpg" alt="">
                         <p class="search">POTETE TROVARMI SU PRENOTAZIONE CONTATTANDO IN PRIVATO SU INSTAGRAM O MANDANDO UN
                             MESSAGGIO SU
                             WHATSAPP</p>

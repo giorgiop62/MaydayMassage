@@ -80,6 +80,7 @@ p {
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 18px;
+    height: 157px;
 }
 
 h5 {
