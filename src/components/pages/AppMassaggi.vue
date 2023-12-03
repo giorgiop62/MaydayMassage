@@ -33,7 +33,7 @@ export default {
                     <div class="card-body">
                         <h5 class="card-title">{{ love.title }}</h5>
                         <p class="card-text">{{ love.description }}</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" :data-bs-target="'#myModal' + index"
+                        <button class="btn btn-primary detail" data-bs-toggle="modal" :data-bs-target="'#myModal' + index"
                             v-on:click="showDetail(love)">Dettagli</button>
                     </div>
                 </div>
@@ -70,14 +70,16 @@ export default {
 
 .card {
     margin: 20px;
+    height: 600px;
+    background-color: black;
+    border: 2px solid #8c5332;
 }
 
 p {
-    height: 100px;
-    /* Adjust as needed */
     color: #8c5332;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 18px;
 }
 
 h5 {

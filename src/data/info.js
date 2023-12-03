@@ -30,7 +30,7 @@ export default [
     img: "../src/assets/img_fabio/5.jpg",
     title: "maydayLIFTING",
     description:
-      "MASSAGGIO CHE PREVIENE L'INVECCHIAMENTO E DONA NUOVA ELASTICITA ALLA PELLE DEL VISO RENDENDOLA PIù TONICA E LUMINOSA.",
+      "MASSAGGIO CHE PREVIENE L'INVECCHIAMENTO E DONA NUOVA ELASTICITA ALLA PELLE DEL VISO RENDENDOLA PIÙ TONICA E LUMINOSA.",
     dettaglio:
       "Ha la capacità di stimolare tutti i muscoli del viso, il maydayLIFTING dona elasticità alla pelle del viso, rendendola fin da subito più tonica e luminosa. Grazie alle manovre utilizzate e prodotti si stimola la circolazione sanguigna, si attivano i fibroblasti, aumentando inoltre la produzione di collagene ed elastina, grazie alle quali il viso assume un aspetto giovane. L'accumulo di liquidi tra una cellula e l'altra causa l'effetto viso gonfio, il maydayLIFTING va ad agire su di esso poichè ha un'azione drenante. Attraverso tale massaggio, si attiva quindi la microcircolazione, il tessuto sottocutaneo viene irrorato  e la pelle del viso acquisisce immediatamente un aspetto più sano.Il maydayLIFTING, oltre a prevenire l'invecchiamento della pelle, allevia tensioni e dolori causati da una postura errata,affaticamenti, ansie e nervosismo.",
     durata: "60 minuti",
@@ -39,7 +39,7 @@ export default [
     img: "../src/assets/img_fabio/6.jpg",
     title: "maydayPRENATAL",
     description:
-      "DAL TOCCO LEGGERO, IL MAYDAYPRENATAL ACCOMPAGNA LA MAMMA DURANTE IL PERCORSO DEL PARTO,ALLEVIANDO DOLORI, GONFIORI E CREA UN COLLEGAMENTO PIU MAGICO TRA MAMMA E FIGLIO.",
+      "DAL TOCCO LEGGERO, IL MAYDAYPRENATAL ACCOMPAGNA LA MAMMA DURANTE IL PERCORSO DEL PARTO,ALLEVIANDO DOLORI, GONFIORI E CREA UN COLLEGAMENTO PIÙ MAGICO TRA MAMMA E FIGLIO.",
     dettaglio:
       "Durante la gravidanza, il corpo della donna subisce molti cambiamenti, il volume del sangue con la gestazione aumenta fino al 50% provocando una pressione sulla parte inferiore delle gambe. In questo caso, viene utilizzato un approccio leggero con manovre di sfioramento che favoriscono la circolazione.Durante la gravidanza abbiamo un notevole cambiamento della postura a causa dell'aumento del peso, provocando nuovi dolori e il maydayPRENATAL aiuta a lenire il dolore.",
     durata: "50 - 60 minuti",

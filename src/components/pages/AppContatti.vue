@@ -12,10 +12,15 @@ export default {
                 <p>NAPOLI:</p>
                 <h5>CENTRO GYNELIFE FONDATO DAL DOTTOR PASQUALE DE ROSA PRESSO</h5>
                 <address>PALAZZO MANNAJUOLO - VIA FILANGIERI - CHIAIA / MARANO DI NAPOLI</address>
-                <h5>STELLA GIANNICOLA INSTITUTE - VIALE ANTONIO GRAMSCI - CHIAIA</h5>
-                <address>COSMEA HOLISTIC STUDIO - AVERSA</address>
+                <h5>STELLA GIANNICOLA INSTITUTE</h5>
+                <address> VIALE ANTONIO GRAMSCI - CHIAIA</address>
+                <h5>COSMEA HOLISTIC STUDIO - AVERSA</h5>
+                <address>VIA PIETROPIROLO - AVERSA</address>
+                <h5>ESTÈLITE</h5>
+                <address>VIA PALEOPOLI - SANTA LUCIA</address>
                 <p>ROMA:</p>
-                <h5>ALESSANDRO STRUMBO HAIR & BEAUTY - VIA VITTORIA 16A - PIAZZA DI SPAGNA</h5>
+                <h5>ALESSANDRO STRUMBO HAIR & BEAUTY </h5>
+                <address>VIA VITTORIA 16A - PIAZZA DI SPAGNA</address>
             </div>
             <div class="col-md-5">
                 <video autoplay loop class="w-100" style="max-width: 100%;">

@@ -14,6 +14,15 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/cli": "^5.0.8",
     "vite": "^4.4.5"
-  }
+  },
+  "tsConfig": "tsconfig.app.json",
+  "aot": true,
+  "assets":[
+    "src/faicon.ico",
+    "src/assets",
+    "src/web.config"
+  ]
+  
 }

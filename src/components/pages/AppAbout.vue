@@ -25,7 +25,7 @@ export default {
     <div class="row justify-content-center subtitle">
         <div class="col-12 text-center">
             <img class="logo" src="../../assets/img_fabio/logo.png" alt="Logo">
-            <h1 class="title">MAYDAYMASSAGE</h1>
+            <h1 class="title">MAYDAYmassage</h1>
         </div>
     </div>
 </template>
@@ -45,6 +45,7 @@ h1 {
 p {
     font-size: 40px;
     text-align: center;
+    color: #e1b264;
 }
 
 .logo {
@@ -62,5 +63,11 @@ p {
 .title {
     color: white;
     font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 20px;
+    }
 }
 </style>

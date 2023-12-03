@@ -6,7 +6,7 @@ import AppCollaboazioni from "../components/pages/AppCollaboazioni.vue";
 import AppContatti from "../components/pages/AppContatti.vue";
 const routes = [
   {
-    path: "",
+    path: "/",
     redirect: "home",
   },
   {
@@ -33,6 +33,10 @@ const routes = [
     path: "/contatti",
     name: "contatti",
     component: AppContatti,
+  },
+  {
+    path: "/:catchAll(.*)",
+    component: AppHome,
   },
 ];
 

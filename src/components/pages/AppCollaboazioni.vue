@@ -8,19 +8,19 @@ export default {
     <div class="contaner">
         <h1>ARTICOLO & VIP</h1>
         <div class="box">
-            <img src="../../assets/img_fabio/1.1.jpg" alt="">
+            <img src="../../assets/img_fabio/1.1.jpg" alt="MAYDAYmassage">
         </div>
         <div class="box">
-            <img src="../../assets/img_fabio/1.2.jpg" alt="">
+            <img src="../../assets/img_fabio/1.2.jpg" alt="MAYDAYmassage">
         </div>
         <div class="box">
-            <img src="../../assets/img_fabio/1.3.jpg" alt="">
+            <img src="../../assets/img_fabio/1.3.jpg" alt="MAYDAYmassage">
         </div>
         <div class="box">
-            <img src="../../assets/img_fabio/1.4.jpg" alt="">
+            <img src="../../assets/img_fabio/1.4.jpg" alt="MAYDAYmassage">
         </div>
         <div class="box">
-            <img src="../../assets/img_fabio/1.5.jpg" alt="">
+            <img src="../../assets/img_fabio/1.5.jpg" alt="MAYDAYmassage">
         </div>
     </div>
 </template>
